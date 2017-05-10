@@ -49,7 +49,7 @@ import PopupDialog from 'react-native-popup-dialog';
 
 <View style={styles.container}>
   <Button
-    text="Show Dialog"
+    title="Show Dialog"
     onPress={() => {
       this.popupDialog.show();
     }}
@@ -70,7 +70,7 @@ import PopupDialog, { SlideAnimation } from 'react-native-popup-dialog';
 
 <View style={styles.container}>
   <Button
-    text="Show Dialog"
+    title="Show Dialog"
     onPress={() => {
       this.popupDialog.show();
     }}
@@ -92,7 +92,7 @@ import PopupDialog, { DialogTitle } from 'react-native-popup-dialog';
 
 <View style={styles.container}>
   <Button
-    text="Show Dialog"
+    title="Show Dialog"
     onPress={() => {
       this.popupDialog.show();
     }}
